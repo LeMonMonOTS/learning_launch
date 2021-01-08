@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+  <node pkg="learning_launch" type="create_talker" 
+  name="talker1" output="screen" args="Node1"/>
+
+  <node pkg="learning_launch" type="create_talker" 
+  name="talker2" output="screen" args="Node2"/>
+
+  <!--node pkg="learning_launch" type="create_talker" 
+  name="talker3" output="screen" args="Node3"/-->
+
+  <node pkg="learning_launch" type="create_listener"
+  name="listener" output="screen"/>
+
+</launch>
